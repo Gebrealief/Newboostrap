@@ -1,0 +1,33 @@
+$body-bg: #5D9FA2;
+$body-text: white;
+$primary: #FFE019;
+$font-family-san-serif: 'Comfortaa', san-serif;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+@media (min-width: 992px){ 
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}
+.profile{
+    height: 130px;
+}
+
+.custombg{
+    background: aliceblue;
+    background-size: cover;
+}
+.card{
+    border: none;
+}
+.card-body{
+    background-color: aliceblue;
+}
+.card-img, card-img-top{
+object-fit: cover;
+aspect-ratio: 1/.7;
+}
